@@ -1,11 +1,9 @@
 package co.com.devco.airbnb.task;
 
-import co.com.devco.airbnb.page.AirBnbHomePage;
 import co.com.devco.airbnb.page.ResultadosEstadiaPage;
 import net.serenitybdd.screenplay.Performable;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Click;
-import net.serenitybdd.screenplay.actions.Enter;
 
 public class Filtrar {
     public static Performable por(String tipoFiltro) {

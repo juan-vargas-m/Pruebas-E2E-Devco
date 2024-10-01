@@ -1,11 +1,9 @@
 package co.com.devco.airbnb.task;
 
-import co.com.devco.airbnb.page.AirBnbHomePage;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.actions.Scroll;
-import net.serenitybdd.screenplay.actions.ScrollTo;
 
 import static co.com.devco.airbnb.page.AirBnbHomePage.BOTON_CENTRO_AYUDA;
 

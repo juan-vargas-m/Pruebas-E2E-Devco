@@ -4,6 +4,7 @@ import net.serenitybdd.annotations.DefaultUrl;
 import net.serenitybdd.screenplay.targets.Target;
 import net.thucydides.core.pages.PageObject;
 
+
 @DefaultUrl("https://www.airbnb.com.co")
 public class AirBnbHomePage extends PageObject {
     public static Target LUGAR_ESTADIA_INPUT = Target.the("lugar estadia input").locatedBy("//input[@id='bigsearch-query-location-input']");
@@ -15,4 +16,6 @@ public class AirBnbHomePage extends PageObject {
     public static Target BOTON_BUSCAR_ESTADIA = Target.the("boton buSscar estadia").locatedBy("//button[@data-testid='structured-search-input-search-button']");
     public static Target BOTON_BUSCAR_EXPERIENCIAS = Target.the("boton buscar experiencias").locatedBy("//button[@data-testid='header-tab-search-block-tab-EXPERIENCES']");
     public static Target BOTON_CENTRO_AYUDA = Target.the("boton centro ayuda").locatedBy("//a[contains(@href, '/help/home') and contains(@class, 'l1ovpqvx')]");
+
 }
+

@@ -1,18 +1,13 @@
 package co.com.devco.airbnb.stepdefinitions;
 
 import co.com.devco.airbnb.page.AirBnbHomePage;
-import co.com.devco.airbnb.task.SeleccionarCentroDeAyuda;
 import co.com.devco.airbnb.task.SeleccionarExperiencia;
 import io.cucumber.java.Before;
 import io.cucumber.java.es.Dado;
-import io.cucumber.java.es.Entonces;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.actions.Open;
 import net.serenitybdd.screenplay.actors.OnStage;
 import net.serenitybdd.screenplay.actors.OnlineCast;
-import net.serenitybdd.screenplay.ensure.Ensure;
-
-import static co.com.devco.airbnb.page.CentroDeAyudaPage.RESULTADOS_BUSQUEDA;
 
 public class BusquedasExperienciaStepDefinitions {
 
